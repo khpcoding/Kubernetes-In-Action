@@ -8,7 +8,9 @@ One of the nodes in your Kubernetes cluster has failed, causing some of the pods
 kubectl get nodes
 ```
 Look for nodes in `NotReady` status
+
 ![image](https://github.com/user-attachments/assets/f500e32c-f604-4483-b4ad-5fccf2cbf784)
+
 
 
 2- Drain the Failed Node: Drain the node to evict all pods safely and prevent new pods from being scheduled.
