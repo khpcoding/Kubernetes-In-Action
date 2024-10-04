@@ -3,6 +3,7 @@
 Scenario Description:
 Your team has developed a new microservice-based application and wants to deploy it on a Kubernetes cluster. The application consists of multiple microservices, each with different resource requirements. You need to deploy, configure, and scale these services to ensure they can handle production traffic.
 
+
 ```bash
 apiVersion: apps/v1
 kind: Deployment
