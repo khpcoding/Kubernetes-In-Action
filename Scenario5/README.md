@@ -39,19 +39,19 @@ This example shows how to force a pod to be scheduled **only** on nodes labeled 
    ```
 ## 📝 Best Practices
 
-Use meaningful labels for your nodes, such as:
-
-`team=bi`
-
-`env=prod`
-
-`zone=us-east1-b`
-
-Use the following types of affinity based on scheduling needs:
-
-`requiredDuringSchedulingIgnoredDuringExecution`: for strict rules.
-
-`preferredDuringSchedulingIgnoredDuringExecution`: for soft preferences.
-
-Combine node affinity with tolerations if you are also using taints on your nodes to enforce advanced scheduling behavior.
-
+    Use meaningful labels for your nodes, such as:
+    
+    `team=bi`
+    
+    `env=prod`
+    
+    `zone=us-east1-b`
+    
+    Use the following types of affinity based on scheduling needs:
+    
+    `requiredDuringSchedulingIgnoredDuringExecution`: for strict rules.
+    
+    `preferredDuringSchedulingIgnoredDuringExecution`: for soft preferences.
+  
+  Combine node affinity with tolerations if you are also using taints on your nodes to enforce advanced scheduling behavior.
+  
