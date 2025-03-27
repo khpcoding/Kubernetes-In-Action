@@ -25,18 +25,18 @@ This example shows how to force a pod to be scheduled **only** on nodes labeled 
   nodename=bi-team
   ```
   ## ✅ Steps to Try It Yourself
-1- Label a node for the BI team (if not already labeled):
-```bash
-kubectl label node worker-node-3 nodename=bi-team
-```
-2- Apply the Node Affinity pod manifest\
-```bash
-kubectl apply -f nginx-node-affinity.yaml
-```
-3- Check the pod status and assigned node:
-```bash
-kubectl get pods -o wide
-```
+   1- Label a node for the BI team (if not already labeled):
+   ```bash
+   kubectl label node worker-node-3 nodename=bi-team
+   ```
+   2- Apply the Node Affinity pod manifest\
+   ```bash
+  kubectl apply -f nginx-node-affinity.yaml
+  ```
+   3- Check the pod status and assigned node:
+   ```bash
+   kubectl get pods -o wide
+   ```
 ## 📝 Best Practices
 
 Use meaningful labels for your nodes, such as:
