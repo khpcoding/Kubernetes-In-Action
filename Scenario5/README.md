@@ -13,7 +13,7 @@ Let’s assume you've labeled certain nodes with:
 
 ```bash
 kubectl label nodes worker-node-3 nodename=bi-team
-
+```
 ---
 
 ## ⚙️ How It Works
