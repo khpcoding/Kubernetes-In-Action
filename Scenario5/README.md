@@ -13,3 +13,13 @@ Let’s assume you've labeled certain nodes with:
 
 ```bash
 kubectl label nodes worker-node-3 nodename=bi-team
+
+---
+
+## ⚙️ How It Works
+
+This example shows how to force a pod to be scheduled **only** on nodes labeled as part of the **BI (Business Intelligence) team**.
+
+- The pod will only be scheduled on nodes with the label:
+  ```bash
+  nodename=bi-team
