@@ -2,7 +2,7 @@
 
 In large-scale Kubernetes clusters, it's common to have nodes dedicated to specific teams, environments (e.g., dev/stage/prod), or workloads (e.g., GPU-heavy, storage-optimized). Node Affinity helps ensure that pods are scheduled only on the appropriate nodes based on **custom labels**.
 
----
+--- 
 
 ## 📘 Scenario: Deploying NGINX Only on BI Team Nodes
 
