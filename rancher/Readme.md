@@ -19,7 +19,7 @@ helm repo add rancher-latest https://releases.rancher.com/server-charts/latest
 helm repo update
 ```
 
-# And if you doesnt installled helm on your k8s cluster you can do it by this command : 
+### And if you doesnt installled helm on your k8s cluster you can do it by this command : 
 
 ```sh 
 snap install helm --classic
