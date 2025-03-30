@@ -70,7 +70,9 @@ velero backup create <BACKUP_NAME> --include-namespaces my-namespace
 ```sh
 velero backup get
 ```
-![image](https://github.com/user-attachments/assets/14eb47f5-c122-44bb-b0a9-2906a1581b4d)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/14eb47f5-c122-44bb-b0a9-2906a1581b4d" width="600">
+</p>
 
 🔹 Now, in MinIO, the backup is also stored:
 
