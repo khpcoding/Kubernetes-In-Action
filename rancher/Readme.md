@@ -187,5 +187,3 @@ Rancher is now installed on your Kubernetes cluster. You can use the Rancher UI 
 - **Manage network policies, ingress, and load balancing** for secure and scalable application deployment.
 
 ---
-
-If you have any questions or would like additional guidance on any of these features, feel free to ask! 😊
