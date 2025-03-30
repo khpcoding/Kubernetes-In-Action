@@ -14,10 +14,7 @@ Velero is a tool for backing up and restoring Kubernetes clusters. This guide pr
 Download and install the Velero CLI from the [official documentation](https://velero.io/docs/).
 
 ```sh
-# Linux/macOS
-curl -fsSL https://github.com/vmware-tanzu/velero/releases/latest/download/velero-linux-amd64 -o velero
-chmod +x velero
-sudo mv velero /usr/local/bin/
+wget https://github.com/vmware-tanzu/velero/releases/download/v1.15.2/velero-v1.15.2-linux-amd64.tar.gz && tar xvf  velero-v1.15.2-linux-amd64.tar.gz && cd velero-v1.15.2-linux-amd64 && cp velero  /usr/local/bin/
 ```
 
 ### 2. Install Velero in the Kubernetes Cluster
