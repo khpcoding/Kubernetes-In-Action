@@ -73,6 +73,9 @@ velero backup create <BACKUP_NAME>  --include-namespaces my-namespace
 ```sh
 velero backup get
 ```
+![image](https://github.com/user-attachments/assets/4ed89fd7-d929-40a4-a7e7-c7c82413ef19)
+
+
 Now in minio also have this backup 
 
 
