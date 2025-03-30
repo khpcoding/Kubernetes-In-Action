@@ -19,6 +19,12 @@ helm repo add rancher-latest https://releases.rancher.com/server-charts/latest
 helm repo update
 ```
 
+# And if you doesnt installled helm on your k8s cluster you can do it by this command : 
+
+```sh 
+snap install helm --classic
+```
+
 ### 2️⃣ Install Cert-Manager (Required for TLS)
 Rancher requires cert-manager for managing TLS certificates. Install it using Helm:
 
