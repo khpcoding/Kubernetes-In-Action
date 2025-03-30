@@ -67,6 +67,9 @@ Log in with the default admin user:
 
 **Important:** You will be prompted to change the password on first login.
 
+![image](https://github.com/user-attachments/assets/14217b68-3980-4e8e-a81d-e2009bc694b3)
+
+
 ## 🔧 Post-installation Configuration
 After logging in, you can configure Rancher for your environment:
 - Add additional Kubernetes clusters
