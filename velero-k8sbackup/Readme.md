@@ -18,7 +18,6 @@ wget https://github.com/vmware-tanzu/velero/releases/download/v1.15.2/velero-v1.
 ```
 
 ### 2. Install Velero in the Kubernetes Cluster
-Create a storage bucket for backups and configure credentials for your provider.
 Here, we use MinIO for Kubernetes backup storage. You can easily deploy MinIO using the following manifest: 
 
 ```sh 
@@ -40,7 +39,10 @@ services:
 volumes:
   minio-data:
 ```
-and now log in to minio UI and Creat bucket named for example `velero-backups` 
+and now log in to minio UI and Creat bucket named for example `k8sbackup`
+
+![image](https://github.com/user-attachments/assets/63831d40-3ac4-462d-af1c-069a2c234ae9)
+
 
 
 
