@@ -10,7 +10,7 @@ Velero is a tool for backing up and restoring Kubernetes clusters. This guide pr
 - Velero CLI installed
 
 ## Installation
-### 1. Install Velero CL
+### 1. Install Velero
 
 ```sh
 wget https://github.com/vmware-tanzu/velero/releases/download/v1.15.2/velero-v1.15.2-linux-amd64.tar.gz && tar xvf  velero-v1.15.2-linux-amd64.tar.gz && cd velero-v1.15.2-linux-amd64 && cp velero  /usr/local/bin/
@@ -38,7 +38,7 @@ services:
 volumes:
   minio-data:
 ```
-and now log in to minio UI and Creat bucket named for example `k8sbackup`
+and now log in to minio UI and Create bucket named for example `k8sbackup`
 
 #### 3. Create Credential : 
 
@@ -121,7 +121,5 @@ velero backup delete my-cluster-backup --confirm
 ## Conclusion
 Velero is a powerful tool for Kubernetes backup and disaster recovery. Ensure backups are tested periodically to verify restoration works as expected.
 
-## References
-- [Velero Official Documentation](https://velero.io/docs/)
 
 
