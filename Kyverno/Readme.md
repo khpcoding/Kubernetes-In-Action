@@ -81,8 +81,6 @@ kubectl get cpol -A
 
 ---
 
-## 🎯 **Conclusion**
-Kyverno provides a simple way to enforce security and compliance policies in Kubernetes using native resources. This guide demonstrated how to install Kyverno and enforce an image registry restriction policy. 🚀
 
 
 
