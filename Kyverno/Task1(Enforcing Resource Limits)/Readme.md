@@ -1,5 +1,5 @@
 ## 🎯 Scenario Enforcing Resource Limits on Containers**
-In this scenario, we'll create a Kyverno policy that ensures all containers have resource limits defined, promoting fair resource allocation and preventing any single container from monopolizing cluster resources
+In this scenario, we'll create a Kyverno policy that ensures all containers have resource limits defined, promoting fair resource allocation and preventing any single container from monopolizing cluster resources
 
 ### 1️⃣ Create the Kyverno Policy
 Apply the following policy to enforce resource limits on all containers : 
@@ -82,4 +82,4 @@ This deployment will succeed, as it complies with the policy requiring resource 
 ---
 By implementing this policy, you ensure that all containers running in your Kubernetes cluster have defined resource limits, contributing to the overall stability and efficiency of the cluster
 
---- **
+--- 
