@@ -26,7 +26,7 @@ spec:
                   limits:
                     memory: "?*"
                     cpu: "?*"
-```
+```
 This policy ensures that every container within a Pod has both memory and CPU limits specified
 
 ### 2️⃣ Test the Policy
