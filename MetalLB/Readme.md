@@ -99,11 +99,4 @@ kubectl get svc -A
 ## 🎯 **Conclusion**
 MetalLB is a simple and efficient way to provide Kubernetes services with external IPs in a bare-metal environment. This guide walked you through deploying an Nginx service with MetalLB handling external access. 🎉
 
----
-
-## 📚 **References**
-- [MetalLB Official Documentation](https://metallb.universe.tf/)
-- [Kubernetes Service Types](https://kubernetes.io/docs/concepts/services-networking/service/)
-
-Enjoy your high-performance load balancing with MetalLB! 🚀
 
