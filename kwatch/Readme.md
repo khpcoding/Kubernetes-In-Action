@@ -1,9 +1,5 @@
 # 🔥 kwatch - Real-Time Kubernetes Watchdog
 
-[![GitHub release](https://img.shields.io/github/v/release/kwatch-dev/kwatch)](https://github.com/kwatch-dev/kwatch/releases)
-[![Helm Chart](https://img.shields.io/badge/Helm-ArtifactHub-informational)](https://artifacthub.io/packages/helm/kwatch/kwatch)
-[![Go Report Card](https://goreportcard.com/badge/github.com/kwatch-dev/kwatch)](https://goreportcard.com/report/github.com/kwatch-dev/kwatch)
-
 **kwatch** is your Kubernetes watchdog that instantly alerts you when pods crash or enter unhealthy states. Never miss a critical failure again!
 
 ## 🌟 Features
@@ -45,4 +41,10 @@ After set your Telegram Token and chatID you need to run this command to deploy 
 
 ```sh
 kubectl apply -f config.yml
+```
+
+Now Deploy Kwatch : 
+
+```sh 
+kubectl apply -f https://raw.githubusercontent.com/abahmed/kwatch/v0.10.1/deploy/deploy.yaml
 ```
