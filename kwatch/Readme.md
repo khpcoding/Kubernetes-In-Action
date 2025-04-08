@@ -5,7 +5,7 @@
 ## 🌟 Features
 
 - 🚨 **Real-time alerts** for crashes (`OOMKilled`, `CrashLoopBackOff`, etc.)
-- 📢 **Multi-channel notifications**: Slack, Discord, Teams, Email, Webhook
+- 📢 **Multi-channel notifications**: Slack, Discord, Teams, Email, Webhook , Telegram
 - 📝 **Crash context** with pod logs and events
 - 🕵️ **Smart filtering** to reduce alert fatigue
 - ⚡ **Lightweight** (~10MB RAM per node)
