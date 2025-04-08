@@ -17,7 +17,32 @@
 
 ## 🚀 Quick Start
 
-### Helm Installation (Recommended)
+### Installation
+
+here with this config map you can install kwatch : 
+
 ```sh
-helm repo add kwatch https://kwatch.dev/helm-charts
-helm install kwatch kwatch/kwatch -n monitoring --create-namespace
+#config.yml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: kwatch
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: kwatch
+  namespace: kwatch
+data:
+  config.yaml: |
+    alert:
+      telegram:
+        token: TOKEN #====> PUT IT IN DUBLE QOUTE
+        chatId: CHAT_ID  #====> PUT IT IN DUBLE QOUTE
+```
+
+After set your Telegram Token and chatID you need to run this command to deploy it on k8s cluster :
+
+```sh
+kubectl apply -f config.yml
+```
