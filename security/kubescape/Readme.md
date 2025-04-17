@@ -1,6 +1,4 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/kubescape/kubescape/master/docs/img/kubescape.png" alt="Kubescape Logo" width="300"/>
-</div>
+[![GitHub release](https://img.shields.io/github/release/kubescape/kubescape.svg)](https://github.com/kubescape/kubescape/releases/latest)
 
 # Kubescape
 
