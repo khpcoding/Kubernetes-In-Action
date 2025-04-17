@@ -1,6 +1,5 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/kubescape/kubescape/master/website/static/img/logo-transparent.png" alt="Kubescape Logo" width="300"/>
-</div>
+![image](https://github.com/user-attachments/assets/883cbe5d-f3f3-496c-9714-8bd9ccfc1f53)
+
 # Kubescape
 
 Kubescape is an open-source Kubernetes security platform designed to help you secure your Kubernetes clusters throughout the development and deployment lifecycle. It provides comprehensive scanning, risk analysis, and compliance checks to ensure your cluster adheres to security best practices and frameworks like the NSA-CISA Kubernetes Hardening Guidelines, MITRE ATT&CK, and more.
