@@ -59,3 +59,28 @@ Generate a JSON/PDF report:
 ```bash
 kubescape scan --format json --output results.json
 ```
+## Scan NSA framework
+Scan a running Kubernetes cluster with the NSA framework:
+```bash
+kubescape scan framework nsa
+```
+output: 
+![image](https://github.com/user-attachments/assets/e25af3a6-76a0-485b-ba0d-bdb4690e6282)
+
+## Scan MITRE framework
+Scan a running Kubernetes cluster with the MITRE ATT&CK® framework:
+```bash
+kubescape scan framework mitre
+```
+## Scan specific namespaces:
+```bash
+kubescape scan --include-namespaces development,staging,production
+```
+## Scan local YAML files
+```bash
+kubescape scan /path/to/directory-or-directory
+```
+
+
+
+
