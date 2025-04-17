@@ -1,4 +1,6 @@
-                                 ![image](https://github.com/user-attachments/assets/883cbe5d-f3f3-496c-9714-8bd9ccfc1f53)
+<div align="center">
+  ![image description](https://github.com/user-attachments/assets/883cbe5d-f3f3-496c-9714-8bd9ccfc1f53)
+</div>
 
 # Kubescape
 
