@@ -1,5 +1,5 @@
 <div align="center">
-  ![image description](https://github.com/user-attachments/assets/883cbe5d-f3f3-496c-9714-8bd9ccfc1f53)
+  <img src="https://github.com/user-attachments/assets/883cbe5d-f3f3-496c-9714-8bd9ccfc1f53" alt="description" />
 </div>
 
 # Kubescape
