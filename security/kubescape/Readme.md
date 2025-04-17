@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/kubescape/kubescape/master/website/static/img/logo.png" alt="Kubescape Logo" width="300"/>
+  <img src="https://raw.githubusercontent.com/kubescape/kubescape/master/website/static/img/logo-transparent.png" alt="Kubescape Logo" width="300"/>
 </div>
 # Kubescape
 
