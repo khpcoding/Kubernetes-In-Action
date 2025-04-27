@@ -48,3 +48,6 @@ Now Deploy Kwatch :
 ```sh 
 kubectl apply -f https://raw.githubusercontent.com/abahmed/kwatch/v0.10.1/deploy/deploy.yaml
 ```
+
+![image](https://github.com/user-attachments/assets/a990a473-d0b9-4e60-8101-9ef016dbf626)
+
