@@ -1,5 +1,3 @@
-Got it — I’ll write you a **concise but complete** GitHub-ready section on **Longhorn in Kubernetes** and then follow it with a **simple YAML example** so that readers can get started right away.
-
 ---
 
 ## 📌 Longhorn in Kubernetes
