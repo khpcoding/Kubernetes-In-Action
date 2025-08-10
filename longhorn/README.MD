@@ -118,11 +118,3 @@ You should see timestamps being appended to the file — stored on Longhorn’s 
 
 ---
 
-### 📝 Summary
-
-Longhorn gives Kubernetes clusters **enterprise-grade persistent storage** with minimal setup, perfect for production and lab environments alike.
-With replication, snapshots, and backups built in, it’s a **cost-effective alternative** to cloud-managed storage solutions.
-
----
-
-If you want, I can also prepare a **diagram** showing how Longhorn replicates volumes across Kubernetes nodes so your GitHub repo looks more polished. That would help readers visualize the architecture.
